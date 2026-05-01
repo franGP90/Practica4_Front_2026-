@@ -1,7 +1,9 @@
 import { PostType } from "@/types";
 
-
-const Post = (post: PostType) => {
+type Params = {
+    post: PostType,
+}
+const Post = ({post}: Params) => {
     return (
         <div>
             <div><p>{post.autor.username}</p></div>
