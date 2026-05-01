@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: wheat;
+  border-bottom: solid 1px #6f4e37;
+  color: #6f4e37; 
+  width: 100% 100vh;
+  gap: 8px;
+}
+
+.profile-button {
+  background-color: wheat;
+  border: solid 1px #6f4e37;
+  color: #6f4e37; 
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.profile-button:hover {
+  background-color: #6f4e37;
+  color: wheat; 
+  cursor: pointer;
+}
+
+.profile-button-text {
+    padding: 8px;
+}
+
+.logout-button {
+  background-color: wheat;
+  border: solid 1px #6f4e37;
+  color: #6f4e37; 
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: auto;
+}
+
+.logout-button:hover {
+  background-color: #6f4e37;
+  color: wheat; 
+  cursor: pointer;
+}
