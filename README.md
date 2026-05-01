@@ -1,4 +1,7 @@
-Login y Regiister:
+Ejecución:
+npm i, npm run dev
+
+ogin y Regiister:
 
 Para implementar el login y el rgister, he creado un contexto que contuviera las funciones con las llamadas a la api correspondientes a estas, y un proxy con una cookie de acceso y una restricción para no poder acceder a la ruta de home u otras autenticadas en caso de que no contemos con ella. 
 
